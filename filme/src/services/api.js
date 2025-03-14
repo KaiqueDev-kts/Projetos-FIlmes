@@ -1,6 +1,4 @@
-//url da api
-//https://api.themoviedb.org/3/
-//movie/550?api_key=a18a625e4df65439d281a6a963f9e4fb
+
 
 import axios from 'axios'
 

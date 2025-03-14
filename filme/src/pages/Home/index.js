@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 export default function Home() {
 
     const [filmes, setFilmes] = useState([])
+   
 
     useEffect(() => {
         async function loadFilmes() {
@@ -41,6 +42,3 @@ export default function Home() {
       </div>
     )
 }
-
-
-//https://api.themoviedb.org/3/movie/550?api_key=a18a625e4df65439d281a6a963f9e4fb
