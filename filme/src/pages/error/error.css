@@ -1,0 +1,21 @@
+.not-fold{
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.not-fold h1 {
+    font-size: 130px;
+}
+
+
+.not-fold a{
+    text-decoration: none;
+    background-color: rgb(22, 75, 121);
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 14px;
+}
